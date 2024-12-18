@@ -79,7 +79,7 @@ function findComposerJson(startDir: string): string | null {
       .replace(/\.(php|txt|html)$/, "") // Remove file extension
       .replace(/\//g, "\\"); // Convert directory separators to namespace format
   
-    return namespacePath.length == 0
+    return namespacePath.length === 0
       ? namespacePrefix.slice(0, -1)
       : namespacePrefix + namespacePath;
   }
