@@ -1,10 +1,10 @@
 # PHP Dynamic Snippets
 
-<!-- Currently no idea what to write here. :) -->
+Not gonna lie, most code was written by Chat-GPT. :)
 
 ## Features
 
-For now, extension brings 3 snippets:
+For now, extension brings 3 snippets with it:
 
 
 `php` - boilerplate for php file with fulfilled namespace and class name
@@ -33,7 +33,7 @@ class __class_from_filename__;
 
 ## Requirements
 
-- composer.json must exist above in folder structure from the file where class being created/edited
+- composer.json must exist in folder structure above file from where the class is being created/edited
 - psr-4 defined inside composer.json
 ```json
 // composer.json
@@ -55,8 +55,6 @@ Currently no settings available
 No known issues  -->
 
 ## Release Notes
-
-Users appreciate release notes as you update your extension.
 
 ### 1.0.0
 
