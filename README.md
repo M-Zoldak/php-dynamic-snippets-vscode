@@ -19,7 +19,7 @@ class __class_from_filename__{
 ```
 
 \
-`namespace` - automatically fills namespace
+`namespace` - outputs automatically filled namespace according to path and psr-4 definition
 ```php
 namespace __automatically__filled__psr_4__namespace__;
 ```
