@@ -1,0 +1,7 @@
+{
+  "Insert Class": {
+    "prefix": "class",
+    "body": "class ${TM_FILENAME_BASE} {$0}",
+    "description": "Insert class with filename as class"
+  }
+}
