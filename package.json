@@ -1,7 +1,7 @@
 {
   "name": "php-dynamic-snippets",
   "displayName": "PHP Dynamic Snippets",
-  "description": "Automatically fills snippets with values according to psr-4 standards.",
+  "description": "Dynamically filled PHP snippets according to PSR-4 format",
   "version": "1.0.0",
   "engines": {
     "vscode": "^1.96.0"
@@ -10,9 +10,19 @@
     "Other",
     "Snippets"
   ],
+  "author": {
+    "name": "Mateusz Żołdak",
+    "email": "mateusz@zoldak.pl",
+    "url": "https://www.mateusz.zoldak.pl"
+  },
   "activationEvents": [
     "onStartupFinished"
   ],
+  "repository": {
+    "type": "GitHub",
+    "url": "https://github.com/M-Zoldak/php-dynamic-snippets-vscode"
+  },
+  "publisher": "M-Zoldak",
   "main": "./dist/extension.js",
   "contributes": {
     "snippets": [
