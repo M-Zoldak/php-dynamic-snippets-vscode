@@ -11,25 +11,23 @@ For now, extension brings 3 snippets with it:\
 ```php
 <?php
 
-namespace __automatically__filled__psr_4__namespace__;
+namespace __AutomaticallyFilledPSR4Namespace__;
 
-class __class_from_filename__{
-
-}
+class __ClassFromFilename__{}
 ```
 
 \
 `namespace` - outputs automatically filled namespace according to path and psr-4 definition
 
 ```php
-namespace __automatically__filled__psr_4__namespace__;
+namespace __AutomaticallyFilledPSR4Namespace__;
 ```
 
 \
 `class` - outputs class with current filename
 
 ```php
-class __class_from_filename__{}
+class __ClassFromFilename__{}
 ```
 
 ## Requirements
@@ -56,6 +54,14 @@ Currently no settings available
 No known issues  -->
 
 ## Release Notes
+
+### 1.0.2
+
+- add loading for "autoload-dev" declarations
+
+### 1.0.1
+
+- add namespaces caching
 
 ### 1.0.0
 

@@ -2,7 +2,7 @@
   "name": "php-dynamic-snippets",
   "displayName": "PHP Dynamic Snippets",
   "description": "Dynamically filled PHP snippets according to PSR-4 format",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "engines": {
     "vscode": "^1.96.0"
   },

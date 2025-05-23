@@ -84,11 +84,20 @@ function getNamespaceMapping(
   const composerData = fs.readFileSync(composerPath, "utf8");
   const composerJson = JSON.parse(composerData);
 
+  let autoload = {};
+
   if (composerJson.autoload && composerJson.autoload["psr-4"]) {
-    return composerJson.autoload["psr-4"];
+    autoload = composerJson.autoload["psr-4"];
   }
 
-  return null; // No PSR-4 mapping found
+  if (composerJson["autoload-dev"] && composerJson["autoload-dev"]["psr-4"]) {
+    autoload = {
+      ...autoload,
+      ...composerJson["autoload-dev"]["psr-4"],
+    };
+  }
+
+  return autoload;
 }
 
 function computeNamespace(
